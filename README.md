@@ -1,4 +1,4 @@
-# Processing of NGS data from tumor and normal paired samples
+# Identification of short somatic variants in tumor samples
 
 ## Description
 Here it is presented a pipeline to identify somatic short variants in tumor samples with respect to a matched normal sample. It spans all steps for proccessing whole exome sequencing (WES) data from tumor and paired normal sample and posterior detection of somatic variants.
@@ -21,17 +21,6 @@ Set of somatic variants in VCF file
 ## Time and computing costs
 Time and cost estimates can vary depending on the performance of computing cluster, the number of samples and their size.
 
-## Main tasks
-Quality control of raw files (FastQC)
-Trim adaptors (CutAdapt)
-Mapping reads to reference (BWA) and sort alignments (Picard SortSam)
-Mark PCR-derived duplicates (Picard MarkDuplicates)
-Base recalibration (BaseRecalibrator)
-
-## Evaluation tasks
-Quality control and alignment stats (flagstats)
-Genome Coverage (Bedtools)
-Build recalibration model (BaseRecalibrator)
 
 
 
