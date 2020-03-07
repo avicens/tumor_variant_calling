@@ -1,8 +1,15 @@
 # Identification of somatic variants in tumor samples
 
-Here I describe a pipeline to identify somatic short variants in tumor samples with respect to a matched normal sample.
+## Description
+Here it is presented a pipeline to identify somatic short variants in tumor samples with respect to a matched normal sample.
 
 This workflow include all steps for proccessing whole exome sequencing (WES) data from tumor and paired normal sample and detection of somatic variants.
 
 The different tasks were run in a high-performance computing cluster (*Finisterrae II*) managed by Slurm scheduling system.
+
+## Data
+
+In this pipeline, WES data from a colorectal tumor sample and its normal-paired sample were used as example data. 
+The reference human genome version used is GRCh37.
+
 
